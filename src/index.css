@@ -1,0 +1,26 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Import Tailwind */
+@import "tailwindcss";
+
+/* Global Styles */
+* {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  cursor: none;
+}
+
+/* Theme Variables */
+
+/* Ensure smooth dark mode transition */
+/* html {
+  transition: background 0.3s ease, color 0.3s ease;
+  background: #fff;
+  color: #000;
+}
+
+html.dark, body.dark {
+  background: #000;
+  color: #fff;
+} */
